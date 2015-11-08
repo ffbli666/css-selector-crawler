@@ -7,7 +7,7 @@
 
 就找到 Node.js 有個 Project `jsdom` 符合此需求
 
-此程式便是使用 `jsom` 的去 ted 網站取得演講資訊
+此程式便是使用 `jsdom` 的去 ted 網站取得演講資訊
 
 ## Quick Start
 install node modules
@@ -20,4 +20,4 @@ start
 $ node ted-spider.js
 ```
 ## Keys
-[jsom](https://github.com/tmpvar/jsdom)
+[jsdom](https://github.com/tmpvar/jsdom)
