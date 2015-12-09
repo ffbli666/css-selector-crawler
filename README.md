@@ -1,5 +1,5 @@
-# css-selector-spider
-過去習慣在寫 spider 程式時都是使用正規表示法來剖析網頁結構取得資料。
+# css-selector-crawler
+過去習慣在寫爬蟲程式時都是使用正規表示法來剖析網頁結構取得資料。
 
 最近在寫 Chrome Extension 時 Chrome Extension 可以使用 `chrome.tabs.executeScript` 在一個 tab 內的內容執行自己寫的 JavaScript，在這個機制可以利用 Css Selector 來做網頁的剖析取得想要的資料，極其方便。
 
@@ -17,7 +17,7 @@ $ npm install
 ```
 start
 ```
-$ node ted-spider.js
+$ node ted-crawler.js
 ```
 ## Keys
 [jsdom](https://github.com/tmpvar/jsdom)
